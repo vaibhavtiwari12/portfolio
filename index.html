@@ -1,7 +1,309 @@
-<html>
+<html data-ng-app="portfolio">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaibhav Tiwari</title>
+    <link rel='stylesheet' href="portico.css">
+    <link rel='stylesheet' href="fab.css">
+    <link rel='stylesheet' href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
-<body>
-Hi this is the default access check 
+<body data-ng-controller="portfolioController" >
+<div class="body-pre" ></div>
+<div class="body-main">
+ <a class="go-to-top" style="display: none;" id="back-to-top"><div class="go-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></div></a>
+ <div class="header-container">
+     <div class='header'>
+         <div style="background: rgba(0,0,0,0.5); width:100%;height:100%;"></div>
+     </div>
+ </div>
+ <header>
+     <div class="fab-cont" style="display:inline-block;">
+        <div id="one" class="line one"></div>  
+        <div id="two" class="line two"></div>  
+        <div id="three" class="line three"></div>  
+     </div>  
+    <div class="top-menu" id="top-menu">
+        <div id="about" class="about" ng-click='scroller("about")'>About</div>
+        <div class="top-menu-sub" id="Education" data-ng-click="scroller('education')  ">Education</div>
+        <div class="top-menu-sub" id="Resume" )><a style="text-decoration:none; color:#fff;" href="CV_Vaibhav_Tiwari.docx">Resume</a></div>
+        <div class="top-menu-sub" id="Contact" data-ng-click="scroller('contact') ">Contact</div>
+    </div>
+    <div class="header-sub text">
+            <div class='Header-sub-sub'>
+                <div class="head-main shimmer" style='font-size: 85;'>Vaibhav Tiwari</div>
+                <div style='font-size: 25;font-family:cool;    margin-bottom: 13px;'>Web Developer</div>
+            </div>
+            <div class="social-media-homepage">
+            <div class="social_media_icons">  
+                <a target="_blank" href="https://twitter.com/vaibhavti" style="text-decoration:none; color:#fff;"><div class="social_icon_container"><i class="fa fa-twitter fa-2x"></i></div></a>
+                <a target="_blank" href="https://www.linkedin.com/in/vaibhav-tiwari-69842023?trk=hp-identity-name" style="text-decoration:none; color:#fff;"><div class="social_icon_container"><i class="fa fa-linkedin fa-2x"></i></div></a>
+                <a target="_blank" href="https://www.facebook.com/tvaibhav1204" style="text-decoration:none; color:#fff;"> <div class="social_icon_container"><i class="fa fa-facebook fa-2x"></i></div></a>
+                <a target="_blank" href="https://www.youtube.com/user/1204vaibhav" style="text-decoration:none; color:#fff;"><div class="social_icon_container"><i class="fa fa-youtube-play fa-2x"></i></div></a>
+            </div>
+            </div>
+        </div>
+    </header>    
+ <midsection>
+    <div class="mid-main mid-main-left">
+        <div class="experience-heading">
+            EXPERIENCE
+        </div>   
+        <div class="mid-main-container">
+            <div class="mid-main-content">
+                <div class="mid-main-content-heading">
+                    <div class="mid-main-content-heading-date">2010 - 2014 </div>
+                    <div class="mid-main-content-heading-degree"><i> Bachelor Degree </i></div>    
+                </div >
+               <div class="mid-main-content-division experience-division">
+               </div>
+                <div class="mid-main-content-material" >
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters..   
+                </div>
+            </div>
+         <div class="mid-main-content">
+            <div class="mid-main-content-heading">
+               <div class="mid-main-content-heading-date">2009 - 2010 </div>
+                <div class="mid-main-content-heading-degree"><i> Higher Secondary</i> </div>
+            </div >
+            <div class="mid-main-content-division experience-division">
+            </div>
+             <div class="mid-main-content-material" >
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters..   
+                </div>
+        </div>
+    </div>
+       
+    </div>
+    <div class="mid-main">
+        <div class="image-experience">
+            <div class="midsection-sub">
+            </div>
+         </div> 
+         <div id="knobMain" class="knob-main">
+            <div id="knob1" class="knob-sub"><input type="text" class="dial" value=75 data-min="0" data-max="100">
+                <span style="text-align:center;">HTML / CSS</span>
+             </div>
+             <div id="knob2" class="knob-sub"><input type="text" class="dial" value=80 data-min="0" data-max="100">
+                <span style="text-align:center;">Angular JS</span>
+             </div>
+             <div id="knob3" class="knob-sub"><input type="text" class="dial" value=70 data-min="0" data-max="100">
+                <span style="text-align:center;">Java / J2EE</span>
+             </div>
+         </div>
+    </div>
+</midsection>
+    
+ <education>
+    <div class="mid-main mid-main-left">
+        <div class="experience-heading">
+            ACADEMICS
+        </div>   
+        <div class="mid-main-container">
+              <div class="mid-main-content">
+                <div class="mid-main-content-heading">
+                    <div class="mid-main-content-heading-date">2010 - 2014 </div>
+                    <div class="mid-main-content-heading-degree"><i> Bachelor Degree </i></div>    
+                </div >
+               <div class="mid-main-content-division">
+               </div>
+                <div class="mid-main-content-material" >
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters..   
+                </div>
+            </div>
+         <div class="mid-main-content">
+            <div class="mid-main-content-heading">
+               <div class="mid-main-content-heading-date">2009 - 2010 </div>
+                <div class="mid-main-content-heading-degree"><i> Higher Secondary</i> </div>
+            </div >
+            <div class="mid-main-content-division">
+            </div>
+             <div class="mid-main-content-material" >
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters..   
+                </div>
+        </div>
+         <div class="mid-main-content">
+            <div class="mid-main-content-heading">
+               <div class="mid-main-content-heading-date">2008 - 2009 </div>
+                <div class="mid-main-content-heading-degree"><i> Senior Secondary </i></div>
+            </div >
+            <div class="mid-main-content-division">
+            </div>
+             <div class="mid-main-content-material" >
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters..   
+                </div>
+        </div> 
+    </div>
+       
+    </div>
+    <div class="mid-main">
+        <div class="education-image">
+            <div class="midsection-sub-education">
+            </div>
+         </div> 
+         <div id="knobMain" class="knob-main">
+           <div class="all-progressbar-container">
+               <div class="blank"></div>
+               <div class="progress-bar-master-container">
+                    <div class="progress-bar-text">
+                        <div class="progress-bar-text-sub">Senior Secondary</div>
+                    </div>
+                    <div class="progress-bar-master">
+                        <div class="progress-bar-one" id="progress-bar-one"></div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-sub" valueIn="progress-bar-one" value=80></div>
+                        </div>
+                    </div>
+               </div>
+               <div class="progress-bar-master-container">
+                    <div class="progress-bar-text">
+                        <div class="progress-bar-text-sub">Higher Secondary</div>
+                    </div>
+                    <div class="progress-bar-master">
+                        <div class="progress-bar-one" id="progress-bar-two"></div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-sub" valueIn="progress-bar-two" value=78></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-bar-master-container">
+                    <div class="progress-bar-text">
+                        <div ><img src="graduation-cap.png" style="height:10px;width:10px;"></div>
+                        <div class="progress-bar-text-sub">Bachelor of Engineering</div>
+                    </div>
+                    <div class="progress-bar-master">
+                        <div class="progress-bar-one" id="progress-bar-three"></div>
+                        <div class="progress-bar-container">
+                        <div class="progress-bar-sub" valueIn="progress-bar-three"  value=84></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blank"></div>
+            </div>
+         </div>
+      </div>
+    
+</education>
+<about>
+  <div class="mid-main mid-main-left ">
+     <div class="experience-heading add_on" >
+            ABOUT
+        </div>
+      <div class="mid-main-container">
+      <div class="about_me_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </div>
+          <certifications>
+              <div class="certification_heading_master">
+                  <div class="image_enclose"><img src="ribbon-badge-award.png" class="certification_image"></img></div>
+                  <div class="certification_heading">CERTIFICATIONS</div>
+              </div>
+              <div class="cert_content">
+                  <ul class="cert_one"><li>Microsoft Specialist certification for programming in HTML5 with JavaScript and CSS3.</li>
+                  <li>Brainbench Certification for C++ and Java 5/6.</li></ul>
+                  
+              </div>
+          </certifications>
+          <extras>
+              <div class="certification_heading_master">
+                  <div class="image_enclose"><img src="menu.png" class="extras_image"></img></div>
+                  <div class="certification_heading">SOME OTHER STUFF</div>
+              </div>
+              <div class="cert_content">
+                  <ul class="cert_one"><li>Trained on Rational Software Architect Tool (RSA) - IBM, Organized by IBM.</li>
+                  <li>Winner of ETV Madhya Pradesh , "Fankaar" a National Level Singing Competition.</li>
+                  <li>Awarded as "RatnaShiromani" by Bhatkhande Jabalpur.</li>
+                  
+                  </ul>
+                  
+              </div>
+         </extras>
+      
+  </div>
+  </div>
+  <div class="mid-main">
+       <div class="about-image">
+          <div class="midsection-sub-about">
+          </div>
+      </div>
+      <div class="image-main-section">
+          <div class="image-main-sub-section">
+              <div class="my-image"></div>
+          </div>
+           <div class="arrow-master">
+               <div class="arrow_container">
+                  <!--<div class="arrow_div_1">
+                  </div>
+                  <div class="arrow_div_2">
+                  </div>
+                  <div class="arrow_div_3">-->
+                <img src="circular-arrow-outline-clipart-1.jpg" ></img>
+               </div>   
+           </div>
+            <div class="thats_me_container">
+                That's Me
+            </div>
+      <div class="button-master">
+          <div class="button-container">
+              <a class="resume_button_anchor" href="CV_Vaibhav_Tiwari.docx"><div class="about_button resume_button">Resume</div></a>
+              <a><div class="about_button hire_me" data-ng-click='scroller("contact")'>Hire Me</div></a>
+          </div>
+      </div>
+      </div>
+      </div>
+</about>
+<contact>
+    <div class="contact_main">
+        <div class="mid-main-map mid-main-left ">
+            <div></div>
+            <div id="map" class="gmap"></div>
+        </div>
+        <div class="mid-main-map">
+            <div class="experience-heading add_on" >
+                GET IN TOUCH
+            </div>
+            <div class="mid-main-container specifics">
+             
+                <div class="circle_div_container">
+                    <div class="circle_icon_container"><div class="circular_div"><i class="fa fa-phone" aria-hidden="true"></i></div></div>
+                 <div class="contact_details_all"><div class="sub_text_contact">+91-9167001232</div></div>
+                </div >
+                <div class="circle_div_container">
+                   <div class="circle_icon_container"> <div class="circular_div"><i class="fa fa-envelope" aria-hidden="true"></i></div></div>
+                    <div class="contact_details_all"><a style="text-decoration:none; color:#000;" href="mailto:tvaibhav1204@gmail.com"><div class="sub_text_contact">tvaibhav1204@gmail.com</div></a></div>
+                </div>
+                <div class="circle_div_container">
+                    <div class="circle_icon_container"><div class="circular_div"><i class="fa fa-map-marker" aria-hidden="true"></i></div></div>
+                    <div class="contact_details_all"><div class="sub_text_contact"> 1142,Vanashree CHS,Seawoods, Navi Mumbai.</div> </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer" >
+        <div class="copyrights made"><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;Designed and Developed By : Vaibhav Tiwari</div>
+       <!-- <div class="copyrights copyight"></div>-->
+        <div class="footer_social">
+            <div class="social_media_icons">  
+                <a target="_blank" href="https://twitter.com/vaibhavti" style="text-decoration:none; color:#fff;"><div class="social_icon_container"><i class="fa fa-twitter fa-2x"></i></div></a>
+                <a target="_blank" href="https://www.linkedin.com/in/vaibhav-tiwari-69842023?trk=hp-identity-name" style="text-decoration:none; color:#fff;"><div class="social_icon_container"><i class="fa fa-linkedin fa-2x"></i></div></a>
+                <a target="_blank" href="https://www.facebook.com/tvaibhav1204" style="text-decoration:none; color:#fff;"> <div class="social_icon_container"><i class="fa fa-facebook fa-2x"></i></div></a>
+                <a target="_blank" href="https://www.youtube.com/user/1204vaibhav" style="text-decoration:none; color:#fff;"><div class="social_icon_container"><i class="fa fa-youtube-play fa-2x"></i></div></a>
+            </div>
+        </div>
+    </div>
+</contact>
+</div>
+
+    <script src="angular.min.js"></script>
+    <script src="jQuery-1.9.1.js"></script> 
+    <script src="jQqueryKnob.js"></script>
+    <script src="smooth%20scroll.js"></script>
+    <script src="inview.js"></script>
+    <script src="files.js"></script>
+    <script src="tweenMax.min.js"></script>
+    <script src="ScrollToPlugin.min.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUza22hdWmLPFvxDeGOpSCyTEdiAoQnWg&callback=initMap">
+    </script>
 </body>
 </html>
