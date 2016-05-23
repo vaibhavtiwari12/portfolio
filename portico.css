@@ -27,7 +27,7 @@
     margin: 0;
 }
 @media screen and (max-width: 627px) {
-   /* .body-main{
+    .body-main{
         display: none;
     }
     .body-pre:after{ 
@@ -46,7 +46,7 @@
         font-family: cool;
         font-size: 20px;
         content:"I am working on making it Mobile Ready.";
-    }*/
+    }
    
      
 }
