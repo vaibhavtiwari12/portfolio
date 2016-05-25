@@ -4,6 +4,9 @@
 <title>Vaibhav Tiwari</title>
     <link rel='stylesheet' href="portico.css">
     <link rel='stylesheet' href="fab.css">
+    <link rel='stylesheet' href="media-min-961.css">
+    <link rel='stylesheet' href="media-max-960.css">
+    <link rel="stylesheet" href="media-320.css">
     <link rel='stylesheet' href="font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -17,8 +20,6 @@
      <div class='header'>
          <div style="background: rgba(0,0,0,0.5); width:100%;height:100%;"></div>
      </div>
- </div>
- <header>
      <div class="fab-cont" style="display:inline-block;">
         <div id="one" class="line one"></div>  
         <div id="two" class="line two"></div>  
@@ -26,14 +27,17 @@
      </div>  
     <div class="top-menu" id="top-menu">
         <div id="about" class="about" ng-click='scroller("about")'>About</div>
+        <div class="top-menu-sub" id="Education" data-ng-click="scroller('midsection')  ">Experience</div>
         <div class="top-menu-sub" id="Education" data-ng-click="scroller('education')  ">Education</div>
         <div class="top-menu-sub" id="Resume" )><a style="text-decoration:none; color:#fff;" href="CV_Vaibhav_Tiwari.docx">Resume</a></div>
         <div class="top-menu-sub" id="Contact" data-ng-click="scroller('contact') ">Contact</div>
     </div>
+      <!--<header>-->
+     
     <div class="header-sub text">
             <div class='Header-sub-sub'>
-                <div class="head-main shimmer" style='font-size: 85;'>Vaibhav Tiwari</div>
-                <div style='font-size: 25;font-family:cool;    margin-bottom: 13px;'>Web Developer</div>
+                <div class="head-main shimmer">Vaibhav Tiwari</div>
+                <div class="webdeveloper">Web Developer</div>
             </div>
             <div class="social-media-homepage">
             <div class="social_media_icons">  
@@ -44,7 +48,9 @@
             </div>
             </div>
         </div>
-    </header>    
+   <!-- </header> --> 
+ </div>
+  
  <midsection>
     <div class="mid-main mid-main-left">
         <div class="experience-heading">
@@ -59,7 +65,7 @@
                <div class="mid-main-content-division experience-division">
                </div>
                 <div class="mid-main-content-material" >
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters..   
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.em Ipsum is that it has a more-or-less normal distribution of letters.em Ipsum is that it has a more-or-less normal distribution of letters   
                 </div>
             </div>
          <div class="mid-main-content">
@@ -146,39 +152,48 @@
            <div class="all-progressbar-container">
                <div class="blank"></div>
                <div class="progress-bar-master-container">
-                    <div class="progress-bar-text">
-                        <div class="progress-bar-text-sub">Senior Secondary</div>
-                    </div>
+                    
                     <div class="progress-bar-master">
                         <div class="progress-bar-one" id="progress-bar-one"></div>
+                        <div class="progress-style-generator">
+                            <div class="progress-bar-text">
+                                <div class="progress-bar-text-sub">Senior Secondary</div>
+                        </div>
                         <div class="progress-bar-container">
                             <div class="progress-bar-sub" valueIn="progress-bar-one" value=80></div>
                         </div>
+                        </div>
                     </div>
                </div>
-               <div class="progress-bar-master-container">
-                    <div class="progress-bar-text">
-                        <div class="progress-bar-text-sub">Higher Secondary</div>
-                    </div>
-                    <div class="progress-bar-master">
-                        <div class="progress-bar-one" id="progress-bar-two"></div>
-                        <div class="progress-bar-container">
-                            <div class="progress-bar-sub" valueIn="progress-bar-two" value=78></div>
-                        </div>
-                    </div>
-                </div>
                 <div class="progress-bar-master-container">
-                    <div class="progress-bar-text">
-                        <div ><img src="graduation-cap.png" style="height:10px;width:10px;"></div>
-                        <div class="progress-bar-text-sub">Bachelor of Engineering</div>
-                    </div>
+                    
                     <div class="progress-bar-master">
                         <div class="progress-bar-one" id="progress-bar-three"></div>
+                        <div class="progress-style-generator">
+                            <div class="progress-bar-text">
+                                <div class="progress-bar-text-sub">Senior Secondary</div>
+                        </div>
                         <div class="progress-bar-container">
-                        <div class="progress-bar-sub" valueIn="progress-bar-three"  value=84></div>
+                            <div class="progress-bar-sub" valueIn="progress-bar-three" value=80></div>
+                        </div>
                         </div>
                     </div>
-                </div>
+               </div>
+                <div class="progress-bar-master-container">
+                    
+                    <div class="progress-bar-master">
+                        <div class="progress-bar-one" id="progress-bar-two"></div>
+                        <div class="progress-style-generator">
+                            <div class="progress-bar-text">
+                                <div class="progress-bar-text-sub">Senior Secondary</div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-sub" valueIn="progress-bar-two" value=80></div>
+                        </div>
+                        </div>
+                    </div>
+               </div>
+           
                 <div class="blank"></div>
             </div>
          </div>
@@ -190,20 +205,9 @@
      <div class="experience-heading add_on" >
             ABOUT
         </div>
-      <div class="mid-main-container">
+      <div class="mid-main-container mid-main-cont-add-on">
       <div class="about_me_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </div>
-          <certifications>
-              <div class="certification_heading_master">
-                  <div class="image_enclose"><img src="ribbon-badge-award.png" class="certification_image"></img></div>
-                  <div class="certification_heading">CERTIFICATIONS</div>
-              </div>
-              <div class="cert_content">
-                  <ul class="cert_one"><li>Microsoft Specialist certification for programming in HTML5 with JavaScript and CSS3.</li>
-                  <li>Brainbench Certification for C++ and Java 5/6.</li></ul>
-                  
-              </div>
-          </certifications>
-          <extras>
+            <extras>
               <div class="certification_heading_master">
                   <div class="image_enclose"><img src="menu.png" class="extras_image"></img></div>
                   <div class="certification_heading">SOME OTHER STUFF</div>
@@ -217,6 +221,18 @@
                   
               </div>
          </extras>
+          <certifications>
+              <div class="certification_heading_master">
+                  <div class="image_enclose"><img src="ribbon-badge-award.png" class="certification_image"></img></div>
+                  <div class="certification_heading">CERTIFICATIONS</div>
+              </div>
+              <div class="cert_content">
+                  <ul class="cert_one"><li>Microsoft Specialist certification for programming in HTML5 with JavaScript and CSS3.</li>
+                  <li>Brainbench Certification for C++ and Java 5/6.</li></ul>
+                  
+              </div>
+          </certifications>
+        
       
   </div>
   </div>
@@ -231,27 +247,23 @@
           </div>
            <div class="arrow-master">
                <div class="arrow_container">
-                  <!--<div class="arrow_div_1">
-                  </div>
-                  <div class="arrow_div_2">
-                  </div>
-                  <div class="arrow_div_3">-->
-                <img src="circular-arrow-outline-clipart-1.jpg" ></img>
-               </div>   
-           </div>
+                <!--<div class="arrow_div_3">-->
+                <img class="arrow_image" src="circular-arrow-outline-clipart-1.jpg" ></img>
+                 
+                </div>
             <div class="thats_me_container">
                 That's Me
             </div>
       <div class="button-master">
           <div class="button-container">
-              <a class="resume_button_anchor" href="CV_Vaibhav_Tiwari.docx"><div class="about_button resume_button">Resume</div></a>
+             <!-- <a class="resume_button_anchor" href="CV_Vaibhav_Tiwari.docx"><div class="about_button resume_button">Resume</div></a>-->
               <a><div class="about_button hire_me" data-ng-click='scroller("contact")'>Hire Me</div></a>
           </div>
       </div>
       </div>
-      </div>
+      </div>    
 </about>
-<contact>
+<!--<contact>
     <div class="contact_main">
         <div class="mid-main-map mid-main-left ">
             <div></div>
@@ -281,7 +293,7 @@
     </div>
     <div class="footer" >
         <div class="copyrights made"><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;Designed and Developed By : Vaibhav Tiwari</div>
-       <!-- <div class="copyrights copyight"></div>-->
+        <div class="copyrights copyight"></div>
         <div class="footer_social">
             <div class="social_media_icons">  
                 <a target="_blank" href="https://twitter.com/vaibhavti" style="text-decoration:none; color:#fff;"><div class="social_icon_container"><i class="fa fa-twitter fa-2x"></i></div></a>
@@ -291,7 +303,7 @@
             </div>
         </div>
     </div>
-</contact>
+</contact>-->
 </div>
 
     <script src="angular.min.js"></script>
