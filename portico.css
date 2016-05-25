@@ -25,9 +25,10 @@
 *{
     padding:0;
     margin: 0;
+    box-sizing: border-box;
 }
 @media screen and (max-width: 627px) {
-    .body-main{
+   /* .body-main{
         display: none;
     }
     .body-pre:after{ 
@@ -46,76 +47,51 @@
         font-family: cool;
         font-size: 20px;
         content:"I am working on making it Mobile Ready.";
-    }
+    }*/
    
      
 }
-@media screen and (max-width: 960px) {
-     .knob-main{
-        flex-direction: column;
-         padding-top: 25px;
-    }
-    midsection{
-        flex-direction: column;
-    }
-    education{
-        flex-direction: column;
-    }
-    .mid-main{
-        height: 100%;
-        width: 100%;
-    }
-    .mid-main-map{
-         height: 85%;
-        width: 100%;
-        
-    }
-    about{
-        flex-direction: column; 
-    }
-   .contact_main{
-        flex-direction: column-reverse;
-    }
-}
-@media screen and (min-width: 961px) {
-    midsection{
-        flex-direction: row;
-        height: 100%;
-        width: 100%;
-    }
-    education {
-        flex-direction: row-reverse;
-    }
-    .contact_main{
-        height:85%;
-    }
-}
+
 .header{
         background: url(Michael-Quellier-Designer-Technology-Background.jpg) no-repeat center center scroll;
        background-size: cover;
     -webkit-filter:blur(2px);
-    height:105%;
-    width:105%;
+    height:100%;
+    width:100%;
      -webkit-filter:blur(2px);
-    margin: -5px -5px -5px -10px;
+    /*margin: -5px -5px -5px -10px;*/
+    position: relative;
 }
 .header-container{
     overflow: hidden;
+    position: relative;
 /*    background: rgba(0,0,0,0.7);*/
 }
 .header-sub{
       font-family: greatVibes;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+}
+.head-main{
+    transition:all 300ms;
 }
 .text{
     color:White;
 }
 .Header-sub-sub{
-    position: absolute;
+   /* position: absolute;
     bottom :21%;
-    right:19%;
+    right:19%;*/
+    height: 100%;
+    /*padding-top: 304px;
+    padding-left: 195px;*/
     display: -webkit-box;display: -ms-flexbox;display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 .fab-cont
 {
@@ -123,19 +99,21 @@
     right: 25px;
     top:25px;
     z-index: 1000;
+    cursor: pointer;
 }
 .top-menu.show{
     top:0px !important; 
     z-index: 955;
+        
 }
 .top-menu{
     transition: all 400ms;
     position:fixed;
-    top:-70px;
     width : 100%;
     left:0;
     min-height : 70px;
-    background: rgba(0,0,0,0.7);
+    top:-70px;
+   /* background: rgba(0,0,0,0.7);*/
     display:flex;
     align-items: center;
     color:white;
@@ -148,7 +126,7 @@
     border-bottom: 1px solid transparent;
     position:relative;
     cursor: pointer;
-    padding: 5px;
+    
 }
 .top-menu-sub:after{
     border-bottom: 1px solid white;
@@ -172,7 +150,6 @@
     transition: all 300ms;
     border-bottom: 1px solid transparent;
     position: relative;
-    padding: 5px;
     cursor: pointer;
 }
 /* This is for the jumping animation
@@ -194,30 +171,31 @@
 .about:hover:after{
     width:55px
 }
-.head-main:after{
+
+/*.head-main:after{
     border-bottom: 1px solid white;
-    content:"";
+    /*content:"";*/
     /*width:0px;*/
-    bottom:67px;
+   /* bottom:67px;
     position:absolute;
     left:70px;
     transition:all 400ms;
     width: 192px;
-}
+}*/
 /*.head-main:hover:after{
     width: 192px;
 }*/
-.head-main:before{
+/*.head-main:before{
     border-bottom: 1px solid white;
-    content:"";
+    /*content:"";*/
     /*width:0px;*/
-    bottom:67px;
+    /*bottom:67px;
     position:absolute;
     left:322px;
     transition:all 400ms;
     transition-delay: 250ms;
     width: 138px;
-}
+}*/
 /*.head-main:hover:before{
     width: 138px;
 }*/
@@ -241,19 +219,19 @@ education{
 }
 .image-experience{
    background: url(iphone-background-wallpaper.jpg) no-repeat center center scroll;
-    width: 105%;
-    height:105%;
+    width: 100%;
+    height:100%;
     background-size: cover;
     -webkit-filter:blur(10px) grayscale(100%);
-    margin: -20px -14px -14px -20px;
+    /*margin: -20px -14px -14px -20px;*/
 }
 .education-image{
      background: url(book.png) no-repeat center center scroll;
-     width: 105%;
-    height:105%;
+     width: 100%;
+    height:100%;
     background-size: cover;
     -webkit-filter:blur(7px) grayscale(60%);
-    margin: -20px -14px -14px -20px;
+   /* margin: -20px -14px -14px -20px;*/
 }
 .midsection-sub{
     background: rgba(0,0,0,0.8);
@@ -311,35 +289,35 @@ education{
     margin-bottom: 30px;
     
 }
-.mid-main-content{
+/*.mid-main-content{
     display:flex;
     -webkit-box-flex: 1;-ms-flex: 1 100%;flex: 1 100%;;
     align-items: center;
-}
-.mid-main-content-heading{
+}*/
+/*.mid-main-content-heading{
     
     font-weight: 500;
     color:black;
     margin-left: 45px;
-    /*margin-top: 25px;*/
+    margin-top: 25px;
     flex: none;
     display: -webkit-box;display: -ms-flexbox;display: flex;
     flex-direction: column;
     text-align: center;
    width: 140px;
     
-}
-.mid-main-content-division{
+}*/
+/*.mid-main-content-division{
     border-right: 1px solid #b5b5b5;
     height: 115px;
     margin-top: 10px;
     flex:none;
     margin-left: 15px;
-}
-.experience-division{
+}*/
+/*.experience-division{
      height: 158px;
-}
-.mid-main-content-heading-date{
+}*/
+/*.mid-main-content-heading-date{
     font-size:15px;
     color:#2D2D2D;
     margin-top: 5px;
@@ -349,26 +327,18 @@ education{
     font-size:13px;
     color: #B5B5B5;
     margin-top: 12px;
-}
+}*/
 .blank-post-main{
     height: 40px;
 }
-.mid-main-content-material{
+/*.mid-main-content-material{
     font-size: 12px;
     margin-left: 10px;
     margin-right: 58px;
     letter-spacing: 0.5px;
     color: #737373;
-}
-.progress-bar-container{
-    -webkit-box-flex: 1;-ms-flex: 1 100%;flex: 1 100%;;
-    background-color: #A5A3A3;/*transparen1*/
-    height: 1px;
-    margin-left: 20px;
-    margin-right: 140px;
-    display: -webkit-box;display: -ms-flexbox;display: flex;
-    align-items: center;
-}
+}*/
+
 .progress-bar-sub{
     height: 3px;
     background-color: white;
@@ -381,6 +351,7 @@ education{
     margin-left: 40px;
     flex:none;
     width: 30px;
+    padding-top: 25px;
 }
 .progress-bar-master{
     display: -webkit-box;display: -ms-flexbox;display: flex;
@@ -400,8 +371,12 @@ education{
     justify-content: center;
     
 }
+.progress-style-generator{
+    flex: 1 100%;
+    height: 49px;
+}
 .progress-bar-text-sub{
-    margin-left: 100px;
+    margin-left: 27px;
 }
 .all-progressbar-container{
     display: -webkit-box;display: -ms-flexbox;display: flex;
@@ -421,11 +396,11 @@ about{
 }
 .about-image{
      background: url(web-design-packages-background.jpg) no-repeat center center scroll;
-     width: 105%;
-    height:105%;
+     width: 100%;
+    height:100%;
     background-size: cover;
     -webkit-filter:blur(9px) grayscale(91%);    
-    margin: -20px -14px -14px -20px;
+    /*margin: -20px -14px -14px -20px;*/
 }
 .midsection-sub-about{
     background: rgba(0,0,0,0.5);
@@ -433,10 +408,9 @@ about{
     height: 100%;
 }
 .my-image{
-    background-color: white;
-    height: 200px;
+    height: 206px;
     width: 200px;
-    border-radius: 200px;
+    border-radius: 50%;
     background: url(IMG_20160206_085354.jpg) no-repeat center center scroll;
     background-size: contain;
 }
@@ -461,50 +435,22 @@ about{
     
 }
 .arrow_container{
-       width: 50px;
-    height: 50px;
-    -webkit-box-flex: 1;-ms-flex: 1 100%;flex: 1 100%;;
+    width: 50px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 100%;
     margin-right: -21px;
     position: relative;
 }
-.arrow_div_1{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 30px;
-    height: 7px;
-    background: #fff;
-    transform: rotate(39deg);
-    border-radius: 10px;
-    
-}
-.arrow_div_2{
-    position: absolute;
-    left: 18px;
-    bottom: 0;
-    width: 30px;
-    height: 7px;
-    background: #fff;
-    transform: rotate(-39deg);
-    border-radius: 10px;
-}
+
 .arrow_div_3{ 
-    position: absolute;
-    left: 4px;
-    bottom: 10px;
-    width: 40px;
-    height: 7px;
-    background: #fff;
-    transform: rotate(90deg);
-    border-radius: 10px;
 }
 .arrow-master{
     display: -webkit-box;display: -ms-flexbox;display: flex;
-    align-self: center;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 24px;
 }
-.arrow_container > img {
+.arrow_image{
     height: 72px;
     width: 31px;
     transform: rotate(24deg);
@@ -552,18 +498,7 @@ about{
     background-color: rgba(255, 255, 255, 0.96);
     color: #2F2F2F;
 }
-.about_me_text{
-    position: relative;
-    font-family: cool;
-    margin-left: 61px;
-    margin-right: 60px;
-    letter-spacing: 0;
-    font-size: 13px;
-    coloR: #737373;
-    margin-top: 42px;
-    font-style: italic; 
-    line-height: 20px;
-}
+
 .about_me_text:before{
     position: absolute;
     content: '\201C';
@@ -582,34 +517,13 @@ about{
     font-size: 48px;
     line-height: 0;
 }
-certifications{
-    margin-top: 60px;
-    margin-left: 33px;
-  
-}
+
 .certification_image{
     height:20px;
     width:20px;
 }
-.certification_heading{
-    margin-left: 16px;
-    display: -webkit-box;display: -ms-flexbox;display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    letter-spacing: 0.8;
-}
-.image_enclose{
-    height: 31px;
-    width: 31px;
-    border: 1px solid #C7C7C7;
-    display: -webkit-box;display: -ms-flexbox;display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    
-    
-}
+
+
 /*.certification_heading:after{
   border-bottom: 1px solid black;
     content: "";
@@ -627,30 +541,12 @@ certifications{
       display: -webkit-box;display: -ms-flexbox;display: flex;
     flex-direction: row;
 }
-.cert_content{
-    height: 60px;
-}
-.cert_one{
-    font-size: 13px;
-    font-family: cool;
-    letter-spacing: 0.3px;
-    margin-left: 43px;
-    margin-top: 23px;
-    color:#737373;
-    margin-right: 45px;
-    line-height: 20px;
-}
-extras{
-    margin-top: 60px;
-    margin-left: 33px;
-}
+
 .extras_image{
     height: 15px;
     width: 15px;
 }
-.add_on{
-        margin-top: 55px; !important;
-}
+
 contact{
     display: -webkit-box;display: -ms-flexbox;display: flex;
     flex-direction: column;
@@ -774,7 +670,8 @@ a{
     cursor: pointer;
 }
 .social-media-homepage{
-        position: absolute;
+    position: absolute;
     left: 0;
     bottom: 30px;
+    transition:all 300ms;
 }
