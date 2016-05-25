@@ -1,0 +1,70 @@
+@media screen and (max-width: 320px){
+    .mid-main-content{
+        margin-top: 36px;
+    }
+    .mid-main-content-material {
+        font-size: 11px !important;
+    }
+       .add_on{
+        margin-top: 26px; !important;
+    }
+    .about_me_text{
+        position: relative;
+        font-family: cool;
+        margin-left: 44px !important;
+        margin-right: 30px !important;
+        letter-spacing: 0;
+        font-size: 11px !important;
+        coloR: #737373;
+        margin-top: 23px !important;
+        font-style: italic;
+        line-height: 18px !important;
+    }
+    certifications{
+        margin-top: 16px !important;
+        margin-left: 18px; !important;
+    }
+    .image_enclose{
+        height: 28px !important;
+        width: 28px !important;
+        border: 1px solid #C7C7C7;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    .certification_heading{
+        margin-left: 16px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 14px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        letter-spacing: 0.8;
+    }
+    .cert_one{
+        font-size: 11px !important;
+        font-family: cool;
+        letter-spacing: 0.3px;
+        margin-left: 24px !important;
+        margin-top: 16px !important;
+        color: #737373;
+        margin-right: 24px !important;
+        line-height: 18px !important;
+    }
+    extras{
+        margin-top: 40px !important;
+        margin-left: 18px !important;
+    }
+    .cert_content{
+        height: none;
+    }
+    .mid-main-cont-add-on{
+        margin-bottom: 0px !important;
+    }
+}
+  

@@ -1,0 +1,144 @@
+@media screen and (min-width: 961px) {
+    midsection{
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+    }
+    education {
+        flex-direction: row-reverse;
+    }
+    .contact_main{
+        height:85%;
+    }
+    .top-menu{
+            background: rgba(0,0,0,0.7);
+    }
+    .head-main{
+        font-size: 80px;
+        margin-top: 70px; 
+        margin-left: 180px; 
+    }
+    .webdeveloper{
+        font-size: 23px;
+        font-family: cool;
+        margin-bottom: 13px;
+        margin-left: 180px; 
+    }
+    .about{
+        padding: 5px;
+    }
+    .top-menu-sub{
+        padding: 5px;
+    }
+    .mid-main-content{
+    display:flex;
+    -webkit-box-flex: 1;-ms-flex: 1 100%;flex: 1 100%;;
+    align-items: center;
+    }
+
+    .mid-main-content-heading{
+
+        font-weight: 500;
+        color:black;
+        margin-left: 45px;
+        /*margin-top: 25px;*/
+        flex: none;
+        display: -webkit-box;display: -ms-flexbox;display: flex;
+        flex-direction: column;
+        text-align: center;
+       width: 140px;
+
+    }
+    .mid-main-content-heading-date{
+        font-size:15px;
+        color:#2D2D2D;
+        margin-top: 5px;
+    }
+    .mid-main-content-heading-degree{
+
+        font-size:13px;
+        color: #B5B5B5;
+        margin-top: 12px;
+    }
+    .mid-main-content-division{
+        border-right: 1px solid #b5b5b5;
+        height: 115px;
+        margin-top: 10px;
+        flex:none;
+        margin-left: 15px;
+    }
+    .experience-division{
+         height: 158px;
+    }
+    .mid-main-content-material{
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 58px;
+        letter-spacing: 0.5px;
+        color: #737373;
+    }
+    .progress-bar-container{
+   /* -webkit-box-flex: 1;-ms-flex: 1 100%;flex: 1 100%;;*/
+    margin-top: 18px;
+    background-color: #A5A3A3;/*transparen1*/
+    height: 1px;
+    margin-left: 20px;
+    margin-right: 140px;
+    display: -webkit-box;display: -ms-flexbox;display: flex;
+    align-items: center;
+}
+    .add_on{
+        margin-top: 55px; !important;
+    }
+    .about_me_text{
+        position: relative;
+        font-family: cool;
+        margin-left: 61px;
+        margin-right: 60px;
+        letter-spacing: 0;
+        font-size: 13px;
+        coloR: #737373;
+        margin-top: 42px;
+        font-style: italic; 
+        line-height: 20px;
+    }
+    certifications{
+        margin-top: 60px;
+        margin-left: 33px;
+    }
+    .image_enclose{
+        height: 31px;
+        width: 31px;
+        border: 1px solid #C7C7C7;
+        display: -webkit-box;display: -ms-flexbox;display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    .certification_heading{
+        margin-left: 16px;
+        display: -webkit-box;display: -ms-flexbox;display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        letter-spacing: 0.8;
+    }
+    .cert_one{
+        font-size: 13px;
+        font-family: cool;
+        letter-spacing: 0.3px;
+        margin-left: 43px;
+        margin-top: 23px;
+        color:#737373;
+        margin-right: 45px;
+        line-height: 20px;
+    }
+    extras{
+        margin-top: 60px;
+        margin-left: 33px;
+    }
+    .cert_content{
+        height: 60px;
+    }
+    
+}

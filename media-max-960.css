@@ -1,0 +1,192 @@
+@media screen and (max-width: 960px) {
+     .knob-main{
+        flex-direction: column;
+         padding-top: 25px;
+    }
+    midsection{
+        flex-direction: column;
+    }
+    education{
+        flex-direction: column;
+    }
+    .mid-main{
+        height: 100%;
+        width: 100%;
+    }
+    .mid-main-map{
+         height: 85%;
+        width: 100%;
+        
+    }
+    about{
+        flex-direction: column; 
+    }
+   .contact_main{
+        flex-direction: column-reverse;
+    }
+    .top-menu{
+        height: 100%;
+        top:-100% !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0,0,0,1.0) !important;
+    }
+    /*.top-menu.show{
+        height: 100%;
+    }*/
+    .head-main{
+        font-size: 53px;
+    }
+     .webdeveloper{
+        font-size: 20px;
+        font-family: cool;
+        margin-bottom: 13px;
+       /* margin-left: 180px;*/ 
+    }
+    .social-media-homepage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .about{
+       padding: 26px;
+    }
+    .top-menu-sub{
+       padding: 26px; 
+    }
+    .mid-main-content {
+        display: flex;
+        -webkit-box-flex: 1;
+        -ms-flex: 1 100%;
+        flex: 1 100%;
+        /* align-items: center; */
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 46px;
+        margin-right: 57px;
+    }
+    .mid-main-content-heading {
+        font-weight: 500;
+        color: black;
+        flex: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-left: 11px;
+    }
+    .mid-main-content-heading-date {
+        font-size: 12px;
+        color: #2D2D2D;
+        /* margin-top: 5px; */
+    }
+   
+    .mid-main-content-heading-degree {
+        font-size: 12px;
+        color: #B5B5B5;
+        margin-left:2px;
+    }
+    .mid-main-content-heading-degree:before {
+        content:" @ "
+        /*font-size: 12px;
+        color: #B5B5B5;*/
+    }
+    
+    .mid-main-content-division {
+        border-bottom: 1px solid #b5b5b5;
+        flex: none;
+        width: 100%;
+        padding-right: -22px;
+        margin-top: 5px;
+    }
+    .experience-division {
+        height: 0px; 
+    }
+    .mid-main-content-material {
+        font-size: 12px;
+        margin-left: 10px;
+        letter-spacing: 0.5px;
+        color: #737373;
+        margin-top: 15px;
+    }
+    .progress-bar-container{
+   /* -webkit-box-flex: 1;-ms-flex: 1 100%;flex: 1 100%;;*/
+    margin-top: 18px;
+    background-color: #A5A3A3;/*transparen1*/
+    height: 1px;
+    margin-left: 20px;
+    margin-right: 51px;
+    display: -webkit-box;display: -ms-flexbox;display: flex;
+    align-items: center;
+}
+  
+    
+    .add_on{
+        margin-top: 22px; !important;
+    }
+    .about_me_text{
+        position: relative;
+        font-family: cool;
+        margin-left: 48px;
+        margin-right: 42px;
+        letter-spacing: 0;
+        font-size: 13px;
+        coloR: #737373;
+        margin-top: 31px;
+        font-style: italic;
+        line-height: 18px;
+    }
+    certifications{
+        margin-left: 21px !important;
+        flex: 1 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cert_content{
+        height: none;
+    }
+    .image_enclose{
+        height: 28px;
+        width: 28px;
+        border: 1px solid #C7C7C7;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    .certification_heading{
+        margin-left: 16px;
+        display: -webkit-box;display: -ms-flexbox;display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        letter-spacing: 0.8;
+    }
+    .cert_one{
+        font-size: 13px;
+        font-family: cool;
+        letter-spacing: 0.3px;
+        margin-left: 29px;
+        margin-top: 13px;
+        color: #737373;
+        margin-right: 29px;
+        line-height: 18px;
+    }
+    extras{
+        margin-left: 21px;
+        flex: 1 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .mid-main-cont-add-on{
+        margin-bottom: 0px !important;
+    }
+}
+
