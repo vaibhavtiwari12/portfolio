@@ -65,8 +65,8 @@
         position: relative;
         justify-content: center;
         flex-direction: column;
-        margin-left: 46px;
-        margin-right: 57px;
+        margin-left: 32px;
+        margin-right: 32px;
     }
     .mid-main-content-heading {
         font-weight: 500;
@@ -124,7 +124,8 @@
   
     
     .add_on{
-        margin-top: 22px; !important;
+        margin-top: 22px !important;
+        margin-left: 32px !important;
     }
     .about_me_text{
         position: relative;
@@ -132,7 +133,7 @@
         margin-left: 48px;
         margin-right: 42px;
         letter-spacing: 0;
-        font-size: 13px;
+        font-size: 12px;
         coloR: #737373;
         margin-top: 31px;
         font-style: italic;
@@ -166,9 +167,10 @@
         align-items: center;
         position: relative;
         letter-spacing: 0.8;
+        font-size: 13px;
     }
     .cert_one{
-        font-size: 13px;
+        font-size: 12px;
         font-family: cool;
         letter-spacing: 0.3px;
         margin-left: 29px;
