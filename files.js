@@ -151,7 +151,8 @@ jQuery(function($){
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 16,
           center: myLatLng,
-          scrollwheel:false
+          scrollwheel:false,
+          draggable: false
         });
        var image ={
            url:'location-24-128.png',
