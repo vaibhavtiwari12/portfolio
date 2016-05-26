@@ -20,7 +20,7 @@
         font-style: italic;
         line-height: 18px !important;
     }
-    certifications{
+    .certifications{
         margin-top: 16px !important;
         margin-left: 18px; !important;
     }
@@ -31,8 +31,12 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+                align-items: center;
         border-radius: 50%;
     }
     .certification_heading{
@@ -41,8 +45,12 @@
         display: -ms-flexbox;
         display: flex;
         font-size: 14px;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+                align-items: center;
         position: relative;
         letter-spacing: 0.8;
     }
@@ -56,7 +64,7 @@
         margin-right: 24px !important;
         line-height: 18px !important;
     }
-    extras{
+    .extras{
         margin-top: 40px !important;
         margin-left: 18px !important;
     }
