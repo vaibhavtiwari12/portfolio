@@ -3,6 +3,10 @@
         display: -webkit-box;display: -ms-flexbox;display: flex;
         height:100%;
     }
+    contact{
+    display: -webkit-box;display: -ms-flexbox;display: flex;
+    height: 100%;
+    }
     midsection{
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -14,6 +18,22 @@
     education {
         -webkit-box-orient: horizontal;-webkit-box-direction: reverse;-ms-flex-direction: row-reverse;flex-direction: row-reverse;
         height:100%;    
+    }
+    .footer{
+        height: 15%;
+        background: #141414;
+        display: -webkit-box;display: -ms-flexbox;display: flex;
+    }
+    .made{
+        padding-left: 2%;
+    }
+    .footer_social{
+        width: 200px;
+        display: -webkit-box;display: -ms-flexbox;display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-right: 65px;
     }
     .contact_main{
         height:85%;
