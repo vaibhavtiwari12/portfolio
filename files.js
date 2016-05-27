@@ -171,6 +171,6 @@ jQuery(function($){
  var bg = jQuery("body");
 jQuery(window).resize("resizeBackground");
 function resizeBackground() {
-    bg.height(jQuery(window).height()+60);
+    /*bg.height(jQuery(window).height());*/
 }
 resizeBackground();
