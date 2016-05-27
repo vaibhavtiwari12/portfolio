@@ -32,7 +32,7 @@
         display: -webkit-box;display: -ms-flexbox;display: flex;
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center;
+                align-items: center;
         margin-right: 65px;
     }
     .contact_main{
@@ -190,5 +190,34 @@
     .cert_content{
         height: none;
     }
+    .about:after{
+    border-bottom: 1px solid white;
+    content:"";
+    width:0px;
+    top:25px;
+    position:absolute;
+    left:5px;
+    -webkit-transition: all 400ms;
+    transition:all 400ms;
+}
+.about:hover:after{
+    width:55px;
+}
+    .top-menu-sub:after{
+    border-bottom: 1px solid white;
+    content:"";
+    width:0px;
+    top:25px;
+    position:absolute;
+    left:4px;
+    transition:all 400ms;
+}
+.top-menu-sub:hover:after{
+    width:91%;
+}
+.about_button:hover{
+    background-color: rgba(255, 255, 255, 0.96);
+    color: #2F2F2F;
+}
     
 }
