@@ -5,7 +5,7 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
+    -ms-flex-align: center;.
     align-items: center;
     /* margin-right: 65px; */
     flex: 1 100%;
@@ -79,7 +79,7 @@
     }
     .top-menu{
         height: 100%;
-        top:-100% !important;
+        top:-200% !important;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
