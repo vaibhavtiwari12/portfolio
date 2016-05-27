@@ -169,7 +169,7 @@ jQuery(function($){
       }
 /********************* MAPS API **********************************/
  var bg = jQuery("body");
-jQuery(window).resize("resizeBackground");
+jQuery(window).resize(resizeBackground);
 function resizeBackground() {
     bg.height(jQuery(window).height()+60);
 }
