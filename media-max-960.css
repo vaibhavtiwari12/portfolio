@@ -301,5 +301,13 @@
     .mid-main-cont-add-on{
         margin-bottom: 0px !important;
     }
+    .header-sub {
+    font-family: greatVibes;
+    position: absolute;
+    height: calc(100% - 60px);
+    width: 100%;
+    top: 0;
+    left: 0;
+    }
 }
 
