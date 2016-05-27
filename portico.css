@@ -56,12 +56,12 @@ html{
 }
 
 .header{
-        background: url(Michael-Quellier-Designer-Technology-Background.jpg) no-repeat center center scroll;
-       background-size: cover;
-    -webkit-filter:blur(2px);
+    background: url(Michael-Quellier-Designer-Technology-Background-processed.jpg) no-repeat center center scroll;
+    background-size: cover;
+    /*-webkit-filter:blur(2px);*/
     height:100%;
     width:100%;
-     -webkit-filter:blur(2px);
+     /*-webkit-filter:blur(2px);*/
     /*margin: -5px -5px -5px -10px;*/
     position: relative;
 }
@@ -243,19 +243,19 @@ education{
     
 }
 .image-experience{
-    background: url(iphone-background-wallpaper.jpg) no-repeat center center scroll;
+    background: url(iphone-background-wallpaper-processed.jpg) no-repeat center center scroll;
     width: 100%;
     height:100%;
     background-size: cover;
-    -webkit-filter:blur(10px) grayscale(100%);
+   /* -webkit-filter:blur(10px) grayscale(100%);*/
     /*margin: -20px -14px -14px -20px;*/
 }
 .education-image{
-     background: url(book.png) no-repeat center center scroll;
+     background: url(book-processed.png) no-repeat center center scroll;
      width: 100%;
     height:100%;
     background-size: cover;
-    -webkit-filter:blur(7px) grayscale(60%);
+    /*-webkit-filter:blur(7px) grayscale(60%);*/
    /* margin: -20px -14px -14px -20px;*/
 }
 .midsection-sub{
@@ -452,11 +452,11 @@ justify-content:center;
     background: #3f3f3f;
 }
 .about-image{
-     background: url(web-design-packages-background.jpg) no-repeat center center scroll;
+     background: url(web-design-packages-background-processed.jpg) no-repeat center center scroll;
      width: 100%;
     height:100%;
     background-size: cover;
-    -webkit-filter:blur(9px) grayscale(91%);    
+    /*-webkit-filter:blur(9px) grayscale(91%);*/    
     /*margin: -20px -14px -14px -20px;*/
 }
 .midsection-sub-about{
