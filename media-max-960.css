@@ -116,6 +116,7 @@
         -ms-flex-align: center;
                 align-items: center;
         width: 100%;
+        margin-bottom: 60px;
     }
     .about{
        padding: 26px;
