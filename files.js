@@ -39,6 +39,11 @@ portfolio.controller('portfolioController',['$scope',function($scope){
 }]);
 
 jQuery(function($){
+	 $(window).load(function() {
+        console.log("inside the fade out function");
+        console.log($("#pageloaddiv"));
+        $("#loader-div").addClass("loader-show");
+    });
 /**********************  Knob Starts  ***********************/
     var dialCounter=0;
     var dialCountLimit=$('.dial').length;
