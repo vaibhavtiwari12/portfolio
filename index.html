@@ -1,7 +1,7 @@
 
 <html data-ng-app="portfolio">
 <head>
-<meta name="viewport" content="width=device-width; initial-scale=1.0;maximum-scale=1.0;">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
 <title>Vaibhav Tiwari</title>
     <link rel='stylesheet' href="portico.css">
     <link rel='stylesheet' href="fab.css">
@@ -13,7 +13,17 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
 </head>
-<body data-ng-controller="portfolioController" >
+<body data-ng-controller="portfolioController">
+<div class="loader-container" id="loader-div">
+    <div id='global'>
+        <div class='mask' id='middle-down'>
+        <div class='plane'></div>
+      </div>
+        <div class='mask' id='middle-top'>
+        <div class='plane'></div>
+      </div>
+    </div>
+</div>
 <div class="body-pre" ></div>
 <div class="body-main">
  <a class="go-to-top" style="display: none;" id="back-to-top"><div class="go-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></div></a>
