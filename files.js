@@ -168,9 +168,12 @@ jQuery(function($){
           
       }
 /********************* MAPS API **********************************/
+ if(jQuery(window).width()<960){
+    console.log("inside jquery function " +jQuery(window).width() );
  var bg = jQuery("body");
 jQuery(window).resize("resizeBackground");
 function resizeBackground() {
     bg.height(jQuery(window).height()+60);
 }
 resizeBackground();
+}
