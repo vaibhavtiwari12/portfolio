@@ -666,10 +666,10 @@ a{
 #global {
     width: 70px;
     position: absolute;
-    height: 75px;
+    height: 141px;
     top: 50%;
     left: 50%;
-    margin-top: -37.5px;
+    margin-top: -70.5px;
     margin-left: -35px;
     -webkit-transform: rotate(79deg);
     transform: rotate(79deg);
