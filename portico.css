@@ -663,109 +663,196 @@ a{
 }
 /***************** loader css **************************/
 #global {
-  width: 70px;
-  position: absolute;
-  height: 75px;
-  top: 50%;
-  left: 50%;
-  margin-top: -37.5px;
-  margin-left: -35px;
-  transform: rotate(79deg);
+    width: 70px;
+    position: absolute;
+    height: 75px;
+    top: 50%;
+    left: 50%;
+    margin-top: -37.5px;
+    margin-left: -35px;
+    -webkit-transform: rotate(79deg);
+    transform: rotate(79deg);
 }
 #global .mask {
-  position: absolute;
-  border-radius: 2px;
-  overflow: hidden;
-  perspective: 1000;
-  backface-visibility: hidden;
+    position: absolute;
+    border-radius: 2px;
+    overflow: hidden;
+    -webkit-perspective: 1000;
+          perspective: 1000;
+    -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+    -webkit-filter: contrast(2);
 }
 #global .plane {
-  background: #1D1F20;
-  width: 400%;
-  height: 100%;
-  position: absolute;
-  transform: translate3d(0px, 0, 0);
-  z-index: 100;
-  perspective: 1000;
-  backface-visibility: hidden;
+      background: #1D1F20;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      -webkit-transform: translate3d(0px, 0, 0);
+              transform: translate3d(0px, 0, 0);
+      z-index: 100;
+      -webkit-perspective: 1000;
+              perspective: 1000;
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+      opacity:1;
+      -webkit-filter: blur(0.5px)
 }
 #global #top {
-  width: 53px;
-  height: 20px;
-  left: 12px;
-  transform: skew(-15deg, 0);
-  z-index: 100;
+    width: 36px;
+    height: 19px;
+    left: -1px;
+    -webkit-transform: skew(25deg, 10deg);
+            transform: skew(25deg, 10deg);
+    z-index: 100;
+    top: 90px
 }
 #global #top .plane {
   z-index: 2000;
-  animation: strip-top 1.3s ease-in infinite 0s backwards;
+  -webkit-animation: fill-bottom-t 1.5s linear infinite 0s forwards;
+          animation: fill-bottom-t 1.5s linear infinite 0s forwards;
 }
+
 #global #middle-top {
-  width: 33px;
-  height: 20px;
-  top: 15px;
-  left: 12px;
-  transform: skew(-15deg, 40deg);
+    width: 33px;
+    height: 20px;
+    top: 12px;
+    left: 11px;
+    -webkit-transform: skew(-11deg, 47deg);
+            transform: skew(-11deg, 47deg);
 }
 #global #middle-top .plane {
-  transform: translate3d(0px, 0, 0);
-  background: #292c2d;
-  animation: strip-middle-top 1.3s linear infinite 0.3s  backwards;
+  -webkit-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
+    background: #292c2d;
+/*    animation: strip-top 1.5s ease-in infinite 0ms backwards;*/
+    -webkit-animation: fill-left-v 1.5s linear infinite 0ms forwards;
+            animation: fill-left-v 1.5s linear infinite 0ms forwards;
 }
+
+
 #global #middle-down {
-  width: 43px;
-  height: 19px;
-  top: 43px;
-  left: 2px;
-  transform: skew(-12deg, -32deg);
+    width: 43px;
+    height: 19px;
+    top: 43px;
+    left: 0px;
+    -webkit-transform: skew(-10deg, -22deg);
+            transform: skew(-10deg, -22deg);
 }
 #global #middle-down .plane {
-  transform: translate3d(0px, 0, 0);
-  background: #35393b;
-  animation: strip-middle-bottom 1.3s linear infinite 0.7s  backwards;
+  -webkit-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
+    background: #35393b;
+/*    animation: strip-middle-bottom 1.5s linear infinite 0ms backwards;*/
+    -webkit-animation: fill-right-v 1.5s linear infinite 0ms forwards;
+            animation: fill-right-v 1.5s linear infinite 0ms forwards;
 }
 #global #bottom {
-  width: 53px;
-  height: 20px;
-  top: 55.5px;
-  left: 2px;
-  transform: skew(-15deg, 0);
+ width: 12px; 
+    height: 16px;
+    top: 86.5px;
+    left: -7.4px;
+    -webkit-transform: skew(-155deg, -80deg);
+            transform: skew(-155deg, -80deg);
 }
 #global #bottom .plane {
   z-index: 2000;
-  animation: strip-bottom 1.3s ease-out infinite 0.95s backwards;
+  /*animation: strip-bottom 1.5s ease-out infinite 220ms backwards;*/
+    -webkit-animation: fill-top-t 1.5s linear infinite 0ms forwards;
+            animation: fill-top-t 1.5s linear infinite 0ms forwards;
+}
+@-webkit-keyframes fill-left-v{
+    0%{
+        -webkit-transform: translate3d(-33px,0,0);
+        opacity: 1;
+    }
+    20%{
+        -webkit-transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+    80%{
+        -webkit-transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+    90%{
+        -webkit-transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 
-@keyframes strip-top {
-  from {
-    transform: translate3d(53px, 0, 0);
-  }
-  to {
-    transform: translate3d(-250px, 0, 0);
-  }
+@-webkit-keyframes fill-right-v{
+    0%{
+        -webkit-transform: translate3d(44px,0,0);
+        opacity: 1;
+    }
+    20%{
+        -webkit-transform: translate3d(44px,0,0);
+        opacity: 1;
+    }
+    40%{
+        -webkit-transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+    80%{
+        -webkit-transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+    90%{
+        -webkit-transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
-@keyframes strip-middle-top {
-  from {
-    transform: translate3d(-160px, 0, 0);
-  }
-  to {
-    transform: translate3d(53px, 0, 0);
-  }
+    
+@-webkit-keyframes fill-top-t{
+    0%{
+        -webkit-transform: translate3d(13px, 0, 0);
+        opacity: 1;
+    }
+    40%{
+        -webkit-transform: translate3d(13px, 0, 0);
+        opacity: 1;
+    }
+    60%{
+        -webkit-transform: translate3d(0px, 0, 0);
+        opacity: 1;
+    }
+    80%{
+        -webkit-transform: translate3d(0px,0,0);
+        opacity: 1;
+    }
+    90%{
+        -webkit-transform: translate3d(0px,0,0);
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
-@keyframes strip-middle-bottom {
-  from {
-    transform: translate3d(53px, 0, 0);
-  }
-  to {
-    transform: translate3d(-220px, 0, 0);
-  }
-}
-@keyframes strip-bottom {
-  from {
-    transform: translate3d(-220px, 0, 0);
-  }
-  to {
-    transform: translate3d(53px, 0, 0);
-  }
+@-webkit-keyframes fill-bottom-t{
+    0%{
+        -webkit-transform: translate3d(-36px, 0, 0);
+        opacity: 1;
+    }
+    60%{
+        -webkit-transform: translate3d(-36px, 0, 0);
+        opacity: 1;
+    }
+    80%{
+        -webkit-transform: translate3d(0px, 0, 0);
+        opacity: 1;
+    }
+    90%{
+        -webkit-transform: translate3d(0px,0,0);
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 /**************************loader********************************/
