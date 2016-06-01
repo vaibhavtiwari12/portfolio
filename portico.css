@@ -654,6 +654,7 @@ a{
     background-color: white;
     z-index: 9997;
     transition:all 0.7s ease;
+    transform: rotateY(180deg);
 }
 .loader-show{
     /*z-index: -20;*/
