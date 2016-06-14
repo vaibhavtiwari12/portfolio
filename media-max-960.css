@@ -211,6 +211,7 @@
     .add_on{
         margin-top: 22px !important;
         margin-left: 32px !important;
+        -webkit-box-flex:0;-ms-flex:none;flex:none;
     }
     .about_me_text{
         position: relative;
