@@ -223,6 +223,7 @@
         margin-top: 15px;
         font-style: italic;
         line-height: 18px;
+        -webkit-box-flex:0;-ms-flex:none;flex:none;
     }
     .certifications{
         margin-left: 21px !important;
