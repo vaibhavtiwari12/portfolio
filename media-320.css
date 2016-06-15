@@ -161,7 +161,7 @@
 }
 .specifics{
     margin-top: 6%;
-   /* margin-bottom: 80px;*/
+   margin-bottom: 18px !important;
     height: 166px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
