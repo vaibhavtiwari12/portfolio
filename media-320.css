@@ -160,9 +160,9 @@
     cursor: pointer;
 }
 .specifics{
-    margin-top: 6%;
+    margin-top: 5%;
    margin-bottom: 18px !important;
-    height: 166px;
+    height: 135px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
