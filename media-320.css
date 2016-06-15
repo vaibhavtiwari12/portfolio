@@ -23,6 +23,7 @@
     .certifications{
         /*margin-top: 16px !important;*/
         margin-left: 18px; !important;
+        -webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;
     }
     .image_enclose{
         height: 28px !important;
@@ -67,6 +68,11 @@
     .extras{
         /*margin-top: 40px !important;*/
         margin-left: 18px !important;
+        margin-top: 0px !important;
+        margin-left: 18px !important;
+        padding-top: 22px;
+        -webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;
+        max-height: 197px;
     }
     .cert_content{
         height: none;
