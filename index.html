@@ -245,7 +245,6 @@
               <div class="cert_content">
                   <ul class="cert_one"><li>Microsoft Specialist certification for programming in HTML5 with JavaScript and CSS3.</li>
                   <li>Brainbench Certification for C++ and Java 5/6.</li></ul>
-                  
               </div>
           </div>
         
@@ -306,11 +305,16 @@
             </div>
             <div>
                 <diV class="name-and-email-container">
-                    <div class="contact-email-name-sub-container"><input class="contact-input-email-and-name" type="email" placeholder="Email"></div>
-                    <div class="contact-email-name-sub-container"><input class="contact-input-email-and-name" type="text" placeholder="Name" ></div>
+                    <div class="contact-email-name-sub-container"><input id="emailinput" class="contact-input-email-and-name" type="email" placeholder="Email" ng-model="emailFrom"></div>
+                    <div class="contact-email-name-sub-container"><input id="Name" class="contact-input-email-and-name" type="text" placeholder="Name"  ng-model="name" ></div>
                 </diV>
-                <div class="contact-content-container"><textarea class="contact-textarea" placeholder="Message" maxlength="1000"></textarea></div>
-                <div class="contact-buttons-container"><div class="contact-send-button">Send</div></div>
+                <div class="contact-content-container"><textarea  id="textareainput" class="contact-textarea" placeholder="Message" maxlength="1000"  ng-model="content"></textarea></div>
+                <div class="contact-buttons-container" >
+                    <div class="contact-send-button" data-ng-hide="send" data-ng-click="submit()" >Send</div>
+                    <div class="contact-send-button" data-ng-show="send">Sending..&nbsp;&nbsp;&nbsp;<i class="fa fa-circle-o-notch fa-spin fa-2x fa-fw" style=
+"font-size: 18px;"></i></div>
+                    <div class="message-sent" data-ng-show="sentMessage">Message Sent!</div>
+                </div>
             </div>
         </div>
     
@@ -328,17 +332,22 @@
         </div>
     </div>
 </div>
-
-    <script src="angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
     <script src="jQuery-1.9.1.js"></script> 
     <script src="jQqueryKnob.js"></script>
     <script src="smooth%20scroll.js"></script>
     <script src="inview.js"></script>
-    <script src="files.js"></script>
+    <script src="soul.min.js"></script>
+    <script src="files.min.js"></script>
     <script src="tweenMax.min.js"></script>
     <script src="ScrollToPlugin.min.js"></script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUza22hdWmLPFvxDeGOpSCyTEdiAoQnWg&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?callback=initMap">
     </script>
+    <script src="https://www.gstatic.com/firebasejs/3.0.3/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    
+<script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
+
 </body>
 </html>
