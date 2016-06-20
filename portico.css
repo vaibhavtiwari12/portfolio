@@ -867,3 +867,15 @@ a{
     margin-bottom: 30px;
     margin-left: 31px;
 }
+.message-sent {
+    padding-left: 15px;
+    font-size: 12px;
+    text-align: center;
+    font-family: cool;
+    color: green;
+    
+}
+.error{
+    border: 1px solid #ff0000 !important;
+    box-shadow: 0.0px 0.0px 1px 0.0px #a20302 !important;
+}
