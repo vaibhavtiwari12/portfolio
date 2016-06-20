@@ -375,6 +375,12 @@
 .contact-buttons-container {
     margin-left: 25px;
     margin-top: 13px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+        align-items:center;
 }
 
 .contact-send-button {
@@ -404,5 +410,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
 }
+
 }
 
