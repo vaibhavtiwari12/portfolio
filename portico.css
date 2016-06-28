@@ -699,7 +699,7 @@ a{
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       opacity:1;
-      -webkit-filter: blur(0.5px)
+      /*-webkit-filter: blur(0.5px)*/
 }
 #global #top {
     width: 36px;
