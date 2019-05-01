@@ -122,7 +122,9 @@
     .mid-main {
         /* height: 100%; */
         width: 100%;
-        flex: auto;
+         -webkit-box-flex: 1;
+         -ms-flex: auto;
+         flex: auto
     }
 
     .mid-main-map {
