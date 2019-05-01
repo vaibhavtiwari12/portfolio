@@ -5,17 +5,12 @@
 <link href=fab.min.css rel=stylesheet>
 <link href=media-min-961.min.css rel=stylesheet>
 <link href=media-max-960.min.css rel=stylesheet>
-<link href=media-320.min.css rel=stylesheet>
+<link href=media-320.css rel=stylesheet>
 <link href=font-awesome-4.6.3/css/font-awesome.min.css rel=stylesheet>
-<link href=favicon.ico rel="shortcut icon" type=image/x-icon>
-<link href=favicon.ico rel=icon type=image/x-icon>
-<script>
-    ! function (e, t, a, n, c, o, s) {
-        e.GoogleAnalyticsObject = c, e[c] = e[c] || function () {
-                (e[c].q = e[c].q || []).push(arguments)
-            }, e[c].l = 1 * new Date, o = t.createElement(a), s = t.getElementsByTagName(a)[0], o.async = 1, o.src =
-            "https://www.google-analytics.com/analytics.js", s.parentNode.insertBefore(o, s)
-    }(window, document, "script", 0, "ga"), ga("create", "UA-81644386-1", "auto"), ga("send", "pageview")
+<link href=favicon.ico rel="shortcut icon" type=image/x-icon> <link href=favicon.ico rel=icon type=image/x-icon>
+    <script>
+!function(e,t,a,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new
+Date,o=t.createElement(a),s=t.getElementsByTagName(a)[0],o.async=1,o.src="https://www.google-analytics.com/analytics.js",s.parentNode.insertBefore(o,s)}(window,document,"script",0,"ga"),ga("create","UA-81644386-1","auto"),ga("send","pageview")
 </script>
 
 <body data-ng-controller=portfolioController>
@@ -36,11 +31,8 @@
         </div>
     </div>
     <div class=body-pre></div>
-    <div class=body-main>
-        <a style=display:none class=go-to-top id=back-to-top>
-            <div class=go-to-top>
-                <i class="fa fa-chevron-up" aria-hidden=true></i>
-            </div>
+    <div class=body-main><a style=display:none class=go-to-top id=back-to-top>
+            <div class=go-to-top><i class="fa fa-chevron-up" aria-hidden=true></i></div>
         </a>
         <div class=header-container>
             <div class=header>
@@ -55,9 +47,8 @@
                 <div class=about id=about ng-click='scroller("about")'>About</div>
                 <div class=top-menu-sub id=Education data-ng-click="scroller('midsection') ">Experience</div>
                 <div class=top-menu-sub id=Education data-ng-click="scroller('education') ">Education</div>
-                <div class=top-menu-sub id=Resume )>
-                    <a style=text-decoration:none;color:#fff href=CV_Vaibhav_Tiwari.docx>Resume</a>
-                </div>
+                <div class=top-menu-sub id=Resume )><a style=text-decoration:none;color:#fff
+                        href=CV_Vaibhav_Tiwari.docx>Resume</a></div>
                 <div class=top-menu-sub id=Contact data-ng-click="scroller('contact') ">Contact</div>
             </div>
             <div class="header-sub text">
@@ -66,86 +57,218 @@
                     <div class=webdeveloper>Web Developer</div>
                 </div>
                 <div class=social-media-homepage>
-                    <div class=social_media_icons>
-                        <a style=text-decoration:none;color:#fff href=https://twitter.com/vaibhavti target=_blank>
-                            <div class=social_icon_container>
-                                <i class="fa fa-2x fa-twitter"></i>
-                            </div>
-                        </a>
-                        <a style=text-decoration:none;color:#fff href="https://www.linkedin.com/in/vaibhav-tiwari-69842023?trk=hp-identity-name"
+                    <div class=social_media_icons><a style=text-decoration:none;color:#fff
+                            href=https://twitter.com/vaibhavti target=_blank>
+                            <div class=social_icon_container><i class="fa fa-2x fa-twitter"></i></div>
+                        </a><a style=text-decoration:none;color:#fff
+                            href="https://www.linkedin.com/in/vaibhav-tiwari-69842023?trk=hp-identity-name"
                             target=_blank>
-                            <div class=social_icon_container>
-                                <i class="fa fa-2x fa-linkedin"></i>
-                            </div>
-                        </a>
-                        <a style=text-decoration:none;color:#fff href=https://www.facebook.com/tvaibhav1204 target=_blank>
-                            <div class=social_icon_container>
-                                <i class="fa fa-2x fa-facebook"></i>
-                            </div>
-                        </a>
-                        <a style=text-decoration:none;color:#fff href=https://www.youtube.com/user/1204vaibhav target=_blank>
-                            <div class=social_icon_container>
-                                <i class="fa fa-2x fa-youtube-play"></i>
-                            </div>
-                        </a>
-                    </div>
+                            <div class=social_icon_container><i class="fa fa-2x fa-linkedin"></i></div>
+                        </a><a style=text-decoration:none;color:#fff href=https://www.facebook.com/tvaibhav1204
+                            target=_blank>
+                            <div class=social_icon_container><i class="fa fa-2x fa-facebook"></i></div>
+                        </a><a style=text-decoration:none;color:#fff href=https://www.youtube.com/user/1204vaibhav
+                            target=_blank>
+                            <div class=social_icon_container><i class="fa fa-2x fa-youtube-play"></i></div>
+                        </a></div>
                 </div>
             </div>
         </div>
         <midsection>
             <div class="mid-main mid-main-left">
                 <div class="add_on experience-heading">EXPERIENCE</div>
+                <div class="mid-main-container experience-margin">
+                    <div class=mid-main-content>
+                        <div class=mid-main-content-heading>
+                            <div class=mid-main-content-heading-date>2017 - Present</div>
+                            <div class=mid-main-content-heading-degree><i>US Electronics Retailer</i></div>
+                        </div>
+                        <div class="mid-main-content-division experience-division"></div>
+                        <div class=mid-main-content-material><b>CoreBlue Enterprise - In-store cross-platform Web Application</b><br><br><strong>Product consumers: Client's Customer and Staff
+                                </strong><br><br><span>CoreBlue Enterprise is a platform that provides a single,
+                                    intuitive interface for the entire sales experience from start to
+                                    finish to Store Associates and Customers in Client Stores. It facilitates sales
+                                    across all departments and products.</span><br><br><b>Role (Team
+                                    Size-50):</b><br><br>•Develop and deploy the application enhancements based on
+                                    requirements.<br><br>•Providing technical understanding of the application to the
+                                    team
+                                    members.<br><br>•Understanding and analyzing functional requirements in-order
+                                    to build feasible solution.<br><br>•Assessing/Interviewing the new candidates for
+                                    the
+                                    team.<br><br>•Mentoring team on the Angular platform and functional aspects
+                                    of application.<br></div>
+                    </div>
+                </div>
                 <div class=mid-main-container>
                     <div class=mid-main-content>
                         <div class=mid-main-content-heading>
-                            <div class=mid-main-content-heading-date>2014 - 2015</div>
-                            <div class=mid-main-content-heading-degree>
-                                <i>SmartSales Engage</i>
-                            </div>
+                            <div class=mid-main-content-heading-date>2016 - 2017</div>
+                            <div class=mid-main-content-heading-degree><i>UK Electronics Retailer</i></div>
                         </div>
                         <div class="mid-main-content-division experience-division"></div>
-                        <div class=mid-main-content-material>
-                            <b>SmartSales –Mobile Application Development</b>
-                            <br>
-                            <br>
-                            <strong>Product consumers: Sales User across organizations</strong>
-                            <br>
-                            <br>
-                            <span>Smartsales application facilitates the sales team and users to easily track down and update the
-                                various fields in the sales opportunities data and to get the latest data update on the timeline
-                                analogous to facebook wall.Application allows the single page update for all the sales data
-                                on the particular opportunity with all the possible graphical aid provision and an easy to
-                                understand GUI. Application also facilitates the integration of several application through
-                                the interfaces provisioning.</span>
-                            <br>
-                            <br>
-                            <b>Role (Team Size-10):</b>
-                            <br>
-                            <br>•Designing and developing custom Timeline.
-                            <br>•Development of Release notes.
-                            <br>•Analysis, debugging and fixing issues.
-                            <br>•Testing and issue debugging/fixing.
-                            <br>
+                        <div class=mid-main-content-material><b>TeamKnowHow - Service Portal for UK's BIggest Electronic Retailer</b><br><br><strong>Product consumers: Client's Customers</strong><br><br>
+                            <span>TeamKnowHow is a services portal for UK's biggest Electronics Retailer. It provides features as self-help articles, video guides and
+                                Trade-In feature for exchanging the old devices with the new
+                                ones. This application also provides the feature for appointment,
+                                scheduling and maintaining the Lifecyle of services.</span><br><br><b>Role (Team
+                                Size>50):</b>
+                                <br><br>
+                                •UI AEM Development of global Modules.<br>
+                                •Angular Architecture implementation with AEM 6.2.<br>
+                                •Developing 100% Responsive Portal.<br>
+                                •Developing CDN caching mechanism.<br>
+                                •Adobe Analytics Integration on data layer<br>
+                                •Code Reviews for team members.<br>
+                                •Mentoring team on Angular and custom application platform.<br>
+                            </div>
+                    </div>
+                </div>
+                <div class=mid-main-container>
+                    <div class=mid-main-content>
+                        <div class=mid-main-content-heading>
+                            <div class=mid-main-content-heading-date>2014 - 2016</div>
+                            <div class=mid-main-content-heading-degree><i>SmartSales Engage</i></div>
                         </div>
+                        <div class="mid-main-content-division experience-division"></div>
+                        <div class=mid-main-content-material><b>SmartSales –Mobile Application
+                                Development</b><br><br><strong>Product consumers: Sales User across
+                                organizations</strong><br><br><span>Smartsales application facilitates the sales team
+                                and users to easily track down and update the various fields in the sales opportunities
+                                data and to get the latest data update on the timeline analogous to facebook
+                                wall.Application allows the single page update for all the sales data on the particular
+                                opportunity with all the possible graphical aid provision and an easy to understand GUI.
+                                Application also facilitates the integration of several application through the
+                                interfaces provisioning.</span><br><br><b>Role (Team Size-10):</b><br><br>•Designing and
+                            developing custom Timeline.<br>•Development of Release notes.<br>•Analysis, debugging and
+                            fixing issues.<br>•Testing and issue debugging/fixing.<br></div>
                     </div>
                 </div>
             </div>
-            <div class=mid-main>
-                <div class=image-experience>
-                    <div class=midsection-sub></div>
-                </div>
-                <div class=knob-main id=knobMain>
-                    <div class=knob-sub id=knob1>
-                        <input class=dial data-max=100 data-min=0 value=90>
-                        <span style=text-align:center>HTML / CSS</span>
-                    </div>
-                    <div class=knob-sub id=knob2>
-                        <input class=dial data-max=100 data-min=0 value=80>
-                        <span style=text-align:center>Angular JS</span>
-                    </div>
-                    <div class=knob-sub id=knob3>
-                        <input class=dial data-max=100 data-min=0 value=70>
-                        <span style=text-align:center>Java / J2EE</span>
+            <div class='mid-main skill-background'>
+                <div class="knob-main education-knob-container" id=knobMain>
+                    <div class=all-progressbar-container>
+                        <div class=skills-heading>
+                            SKILLS
+                        </div>
+                        <div class=blank></div>
+                        <div class=progress-bar-master-container>
+                            <div class=progress-bar-master>
+                                <div class=progress-bar-one id=p1></div>
+                                <div class=progress-style-generator>
+                                    <div class=progress-bar-text>
+                                        <div class=progress-bar-text-sub>JavaScript</div>
+                                    </div>
+                                    <div class=progress-bar-container>
+                                        <div class=progress-bar-sub value=85 valuein=p1></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=progress-bar-master-container>
+                            <div class=progress-bar-master>
+                                <div class=progress-bar-one id=p2></div>
+                                <div class=progress-style-generator>
+                                    <div class=progress-bar-text>
+                                        <div class=progress-bar-text-sub>Angular 6</div>
+                                    </div>
+                                    <div class=progress-bar-container>
+                                        <div class=progress-bar-sub value=90 valuein=p2></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=progress-bar-master-container>
+                            <div class=progress-bar-master>
+                                <div class=progress-bar-one id=p3></div>
+                                <div class=progress-style-generator>
+                                    <div class=progress-bar-text>
+                                        <div class=progress-bar-text-sub>Angular JS</div>
+                                    </div>
+                                    <div class=progress-bar-container>
+                                        <div class=progress-bar-sub value=90 valuein=p3></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=progress-bar-master-container>
+                            <div class=progress-bar-master>
+                                <div class=progress-bar-one id=p4></div>
+                                <div class=progress-style-generator>
+                                    <div class=progress-bar-text>
+                                        <div class=progress-bar-text-sub>React JS</div>
+                                    </div>
+                                    <div class=progress-bar-container>
+                                        <div class=progress-bar-sub value=80 valuein=p4></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=progress-bar-master-container>
+                            <div class=progress-bar-master>
+                                <div class=progress-bar-one id=p5></div>
+                                <div class=progress-style-generator>
+                                    <div class=progress-bar-text>
+                                        <div class=progress-bar-text-sub>HTML5</div>
+                                    </div>
+                                    <div class=progress-bar-container>
+                                        <div class=progress-bar-sub value=95 valuein=p5></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=progress-bar-master-container>
+                            <div class=progress-bar-master>
+                                <div class=progress-bar-one id=p6></div>
+                                <div class=progress-style-generator>
+                                    <div class=progress-bar-text>
+                                        <div class=progress-bar-text-sub>CSS3</div>
+                                    </div>
+                                    <div class=progress-bar-container>
+                                        <div class=progress-bar-sub value=95 valuein=p6></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=progress-bar-master-container>
+                            <div class=progress-bar-master>
+                                <div class=progress-bar-one id=p7></div>
+                                <div class=progress-style-generator>
+                                    <div class=progress-bar-text>
+                                        <div class=progress-bar-text-sub>IONIC</div>
+                                    </div>
+                                    <div class=progress-bar-container>
+                                        <div class=progress-bar-sub value=70 valuein=p7></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=progress-bar-master-container>
+                            <div class=progress-bar-master>
+                                <div class=progress-bar-one id=p8></div>
+                                <div class=progress-style-generator>
+                                    <div class=progress-bar-text>
+                                        <div class=progress-bar-text-sub>Firebase</div>
+                                    </div>
+                                    <div class=progress-bar-container>
+                                        <div class=progress-bar-sub value=70 valuein=p8></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-bar-master-container additional-margin">
+                            <div class=progress-bar-master>
+                                <div class=progress-bar-one id=p9></div>
+                                <div class=progress-style-generator>
+                                    <div class=progress-bar-text>
+                                        <div class=progress-bar-text-sub>J2EE</div>
+                                    </div>
+                                    <div class=progress-bar-container>
+                                        <div class=progress-bar-sub value=65 valuein=p9></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=blank></div>
                     </div>
                 </div>
             </div>
@@ -157,86 +280,46 @@
                     <div class=mid-main-content>
                         <div class=mid-main-content-heading>
                             <div class=mid-main-content-heading-date>2010 - 2014</div>
-                            <div class=mid-main-content-heading-degree>
-                                <i>Bachelor Degree</i>
-                            </div>
+                            <div class=mid-main-content-heading-degree><i>Bachelor Degree</i></div>
                         </div>
                         <div class=mid-main-content-division></div>
-                        <div class=mid-main-content-material>I have completed my Bachealor of Engineering in Computer Science Engineering from Truba Institute
-                            of Engineering and Information Technology, RGPV Bhopal in June'14.</div>
+                        <div class=mid-main-content-material>I have completed my Bachealor of Engineering in Computer
+                            Science Engineering from Truba Institute of Engineering and Information Technology, RGPV
+                            Bhopal in June'14.</div>
                     </div>
                     <div class=mid-main-content>
                         <div class=mid-main-content-heading>
                             <div class=mid-main-content-heading-date>2009 - 2010</div>
-                            <div class=mid-main-content-heading-degree>
-                                <i>Higher Secondary</i>
-                            </div>
+                            <div class=mid-main-content-heading-degree><i>Higher Secondary</i></div>
                         </div>
                         <div class=mid-main-content-division></div>
-                        <div class=mid-main-content-material>I pursued my Higher Secondary Education from Maharishi Vidya Mandir, Bhopal with Maths as the main
-                            stream. Being a computer enthusiast I chose computer science as the specialization for the same.</div>
+                        <div class=mid-main-content-material>I pursued my Higher Secondary Education from Maharishi
+                            Vidya Mandir, Bhopal with Maths as the main stream. Being a computer enthusiast I chose
+                            computer science as the specialization for the same.</div>
                     </div>
                     <div class=mid-main-content>
                         <div class=mid-main-content-heading>
                             <div class=mid-main-content-heading-date>2008 - 2009</div>
-                            <div class=mid-main-content-heading-degree>
-                                <i>Senior Secondary</i>
-                            </div>
+                            <div class=mid-main-content-heading-degree><i>Senior Secondary</i></div>
                         </div>
                         <div class=mid-main-content-division></div>
-                        <div class=mid-main-content-material>I Completed my Senior Secondary Examination from Maharishi Vidya Mandir, Bhopal and In the same year
-                            I won the International Informatics Olympiad chapter in the town.</div>
+                        <div class=mid-main-content-material>I Completed my Senior Secondary Examination from Maharishi
+                            Vidya Mandir, Bhopal and In the same year I won the International Informatics Olympiad
+                            chapter in the town.</div>
                     </div>
                 </div>
             </div>
-            <div class=mid-main>
+            <div class="mid-main education-container">
                 <div class=education-image>
                     <div class=midsection-sub-education></div>
                 </div>
                 <div class=knob-main id=knobMain>
-                    <div class=all-progressbar-container>
-                        <div class=blank></div>
-                        <div class=progress-bar-master-container>
-                            <div class=progress-bar-master>
-                                <div class=progress-bar-one id=progress-bar-one></div>
-                                <div class=progress-style-generator>
-                                    <div class=progress-bar-text>
-                                        <div class=progress-bar-text-sub>Bachelor Degree</div>
-                                    </div>
-                                    <div class=progress-bar-container>
-                                        <div class=progress-bar-sub value=84 valuein=progress-bar-one></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=progress-bar-master-container>
-                            <div class=progress-bar-master>
-                                <div class=progress-bar-one id=progress-bar-three></div>
-                                <div class=progress-style-generator>
-                                    <div class=progress-bar-text>
-                                        <div class=progress-bar-text-sub>Higher Secondary</div>
-                                    </div>
-                                    <div class=progress-bar-container>
-                                        <div class=progress-bar-sub value=78 valuein=progress-bar-three></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=progress-bar-master-container>
-                            <div class=progress-bar-master>
-                                <div class=progress-bar-one id=progress-bar-two></div>
-                                <div class=progress-style-generator>
-                                    <div class=progress-bar-text>
-                                        <div class=progress-bar-text-sub>Senior Secondary</div>
-                                    </div>
-                                    <div class=progress-bar-container>
-                                        <div class=progress-bar-sub value=80 valuein=progress-bar-two></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=blank></div>
-                    </div>
+                    <div class=knob-sub id=knob1><input class=dial data-max=100 data-min=0 value=84> <span
+                            style=text-align:center>Bachelor Degree</span></div>
+                    <div class=knob-sub id=knob2><input class=dial data-max=100 data-min=0 value=77> <span
+                            style=text-align:center>Higher Secondary</span></div>
+                    <div class=knob-sub id=knob3><input class=dial data-max=100 data-min=0 value=79.8> <span
+                            style=text-align:center>Senior Secondary</span></div>
                 </div>
             </div>
         </education>
@@ -244,27 +327,26 @@
             <div class="mid-main mid-main-left">
                 <div class="add_on experience-heading">ABOUT</div>
                 <div class="mid-main-container mid-main-cont-add-on">
-                    <div class=about_me_text>Initially It wasn't web, Terminals were my Love of life, All Thanks to Swordfish! but somewhere I missed
-                        the freedom to design something. I saw enormous potential in web and that propelled me towards making
-                        my Dream-to-Design a reality. Being passionate towards web development I always seek new challenges
-                        and grab them as opportunities and with that now I know technologies like Angular JS, Firebase, AngularFire
-                        with HTML5 and CSS3.
-                        <br>
-                        <br>Albeit I love coding but when I am not doing that I pursue my passion Singing ! you can spot me with
-                        a Microphone-recording some tunes. If you want my help or you want me onboard, you can get in touch
-                        with me.</div>
+                    <div class=about_me_text>Initially It wasn't web, Terminals were my Love of life, All Thanks to
+                        Swordfish! but somewhere I missed the freedom to design something. I saw enormous potential in
+                        web and that propelled me towards making my Dream-to-Design a reality. Being passionate towards
+                        web development I always seek new challenges and grab them as opportunities and with that now I
+                        know technologies like Angular JS, Firebase, AngularFire with HTML5 and CSS3.<br><br>Albeit I
+                        love coding but when I am not doing that I pursue my passion Singing ! you can spot me with a
+                        Microphone-recording some tunes. If you want my help or you want me onboard, you can get in
+                        touch with me.</div>
                     <div class=certifications>
                         <div class=certification_heading_master>
-                            <div class=image_enclose>
-                                <i class="fa fa-star" aria-hidden=true></i>
-                            </div>
+                            <div class=image_enclose><i class="fa fa-star" aria-hidden=true></i></div>
                             <div class=certification_heading>Achievements</div>
                         </div>
                         <div class=cert_content>
                             <ul class=cert_one>
-                                <li>Microsoft Specialist certification for programming in HTML5 with JavaScript and CSS3.
-                                    <li>Trained on Rational Software Architect Tool (RSA) - IBM, Organized by IBM.
-                                        <li>Winner of ETV Madhya Pradesh , "Fankaar" a National Level Singing Competition.
+                                <li><strong>Microsoft Specialist certification</strong> for programming in HTML5 with
+                                    JavaScript and
+                                    CSS3.
+                                <li>Trained on Rational Software Architect Tool (RSA) - IBM, Organized by IBM.
+                                <li>Winner of ETV Madhya Pradesh , "Fankaar" a National Level Singing Competition.
                             </ul>
                         </div>
                     </div>
@@ -279,23 +361,20 @@
                         <div class=my-image></div>
                     </div>
                     <div class=arrow-master>
-                        <div class=arrow_container>
-                            <img class=arrow_image src=circular-arrow-outline-clipart-1.jpg>
+                        <div class=arrow_container><img class=arrow_image src=circular-arrow-outline-clipart-1.jpg>
                         </div>
                     </div>
                     <div class=thats_me_container>That's Me</div>
                     <div class=button-master>
-                        <div class=button-container>
-                            <a>
+                        <div class=button-container><a>
                                 <div class="about_button hire_me" data-ng-click='scroller("contact")'>Contact Me</div>
-                            </a>
-                        </div>
+                            </a></div>
                     </div>
                 </div>
             </div>
         </about>
         <contact>
-            <div class="mid-main mid-main-left">
+            <div class="mid-main mid-main-left no-margin">
                 <div></div>
                 <div class=gmap id=map></div>
             </div>
@@ -304,9 +383,7 @@
                 <div class="mid-main-container-contact specifics">
                     <div class=circle_div_container>
                         <div class=circle_icon_container>
-                            <div class=circular_div>
-                                <i class="fa fa-map-marker" aria-hidden=true></i>
-                            </div>
+                            <div class=circular_div><i class="fa fa-map-marker" aria-hidden=true></i></div>
                         </div>
                         <div class=contact_details_all>
                             <div class=sub_text_contact>Nerul, Navi Mumbai.</div>
@@ -314,21 +391,16 @@
                     </div>
                     <div class=circle_div_container>
                         <div class=circle_icon_container>
-                            <div class=circular_div>
-                                <i class="fa fa-envelope" aria-hidden=true></i>
-                            </div>
+                            <div class=circular_div><i class="fa fa-envelope" aria-hidden=true></i></div>
                         </div>
-                        <div class=contact_details_all>
-                            <a style=text-decoration:none;color:#000 href=mailto:tvaibhav1204@gmail.com>
+                        <div class=contact_details_all><a style=text-decoration:none;color:#000
+                                href=mailto:tvaibhav1204@gmail.com>
                                 <div class=sub_text_contact>tvaibhav1204@gmail.com</div>
-                            </a>
-                        </div>
+                            </a></div>
                     </div>
                     <div class=circle_div_container>
                         <div class=circle_icon_container>
-                            <div class=circular_div>
-                                <i class="fa fa-phone" aria-hidden=true></i>
-                            </div>
+                            <div class=circular_div><i class="fa fa-phone" aria-hidden=true></i></div>
                         </div>
                         <div class=contact_details_all>
                             <div class=sub_text_contact>+91-9167001232</div>
@@ -337,58 +409,44 @@
                 </div>
                 <div>
                     <div class=name-and-email-container>
-                        <div class=contact-email-name-sub-container>
-                            <input class=contact-input-email-and-name id=emailinput ng-model=emailFrom placeholder=Email type=email>
-                        </div>
-                        <div class=contact-email-name-sub-container>
-                            <input class=contact-input-email-and-name id=Name ng-model=name placeholder=Name>
-                        </div>
+                        <div class=contact-email-name-sub-container><input class=contact-input-email-and-name
+                                id=emailinput ng-model=emailFrom placeholder=Email type=email></div>
+                        <div class=contact-email-name-sub-container><input class=contact-input-email-and-name id=Name
+                                ng-model=name placeholder=Name></div>
                     </div>
-                    <div class=contact-content-container>
-                        <textarea class=contact-textarea id=textareainput maxlength=1000 ng-model=content placeholder=Message></textarea>
-                    </div>
+                    <div class=contact-content-container><textarea class=contact-textarea id=textareainput
+                            maxlength=1000 ng-model=content placeholder=Message></textarea></div>
                     <div class=contact-buttons-container>
                         <div class=contact-send-button data-ng-click=submit() data-ng-hide=send>Send</div>
-                        <div class=contact-send-button data-ng-show=send>Sending..
-                            <i class="fa fa-2x fa-circle-o-notch fa-fw fa-spin" style=font-size:18px></i>
-                        </div>
+                        <div class=contact-send-button data-ng-show=send>Sending.. <i
+                                class="fa fa-2x fa-circle-o-notch fa-fw fa-spin" style=font-size:18px></i></div>
                         <div class=message-sent data-ng-show=sentMessage>Message Sent!</div>
                     </div>
                 </div>
             </div>
         </contact>
         <div class=footer>
-            <div class="copyrights made">
-                <i class="fa fa-copyright" aria-hidden=true></i> Designed and Developed By : Vaibhav Tiwari</div>
+            <div class="copyrights made"><i class="fa fa-copyright" aria-hidden=true></i> Designed and Developed By :
+                Vaibhav Tiwari</div>
             <div class=footer_social>
-                <div class=social_media_icons>
-                    <a style=text-decoration:none;color:#fff href=https://twitter.com/vaibhavti target=_blank>
-                        <div class=social_icon_container>
-                            <i class="fa fa-2x fa-twitter"></i>
-                        </div>
-                    </a>
-                    <a style=text-decoration:none;color:#fff href="https://www.linkedin.com/in/vaibhav-tiwari-69842023?trk=hp-identity-name"
+                <div class=social_media_icons><a style=text-decoration:none;color:#fff
+                        href=https://twitter.com/vaibhavti target=_blank>
+                        <div class=social_icon_container><i class="fa fa-2x fa-twitter"></i></div>
+                    </a><a style=text-decoration:none;color:#fff
+                        href="https://www.linkedin.com/in/vaibhav-tiwari-69842023?trk=hp-identity-name" target=_blank>
+                        <div class=social_icon_container><i class="fa fa-2x fa-linkedin"></i></div>
+                    </a><a style=text-decoration:none;color:#fff href=https://www.facebook.com/tvaibhav1204
                         target=_blank>
-                        <div class=social_icon_container>
-                            <i class="fa fa-2x fa-linkedin"></i>
-                        </div>
-                    </a>
-                    <a style=text-decoration:none;color:#fff href=https://www.facebook.com/tvaibhav1204 target=_blank>
-                        <div class=social_icon_container>
-                            <i class="fa fa-2x fa-facebook"></i>
-                        </div>
-                    </a>
-                    <a style=text-decoration:none;color:#fff href=https://www.youtube.com/user/1204vaibhav target=_blank>
-                        <div class=social_icon_container>
-                            <i class="fa fa-2x fa-youtube-play"></i>
-                        </div>
-                    </a>
-                </div>
+                        <div class=social_icon_container><i class="fa fa-2x fa-facebook"></i></div>
+                    </a><a style=text-decoration:none;color:#fff href=https://www.youtube.com/user/1204vaibhav
+                        target=_blank>
+                        <div class=social_icon_container><i class="fa fa-2x fa-youtube-play"></i></div>
+                    </a></div>
             </div>
         </div>
     </div>
-    <script src=https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js></script>
-    <script src=jQuery-1.9.1.js></script>
+    <script src=https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js> </script> <script
+        src=jQuery-1.9.1.js></script>
     <script src=jQqueryKnob.js></script>
     <script src=smooth%20scroll.js></script>
     <script src=inview.js></script>
@@ -396,7 +454,7 @@
     <script src=files.min.js></script>
     <script src=tweenMax.min.js></script>
     <script src=ScrollToPlugin.min.js></script>
-    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyD06DEQIoqe2fb73x7iXxsN_265zuj_NUE" async defer></script>
-    <script src=https://www.gstatic.com/firebasejs/3.0.3/firebase.js></script>
-    <script src=https://www.gstatic.com/firebasejs/live/3.0/firebase.js></script>
-    <script src=https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+    <script src=https://www.gstatic.com/firebasejs/3.0.3/firebase.js> </script> <script
+        src=https://www.gstatic.com/firebasejs/live/3.0/firebase.js> </script> <script
+        src=https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js> </script>
