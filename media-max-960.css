@@ -8,7 +8,9 @@
         -ms-flex-align: center;
         align-items: center;
         /* margin-right: 65px; */
-        flex: 1 100%;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 100%;
+                flex: 1 100%;
     }
 
     .skills-heading {
@@ -39,7 +41,9 @@
         -ms-flex-align: center;
         align-items: center;
         /* margin-right: 65px; */
-        flex: 1 100%;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 100%;
+                flex: 1 100%;
     }
 
     .footer {
@@ -205,7 +209,9 @@
 
     .mid-main-container {
         display: block !important;
-        flex: 0;
+        -webkit-box-flex: 0;
+            -ms-flex: 0;
+                flex: 0;
     }
 
     .mid-main-content {
