@@ -71,7 +71,7 @@
     }
 
     .all-progressbar-container {
-        height: 530px;
+        height: auto;
     }
 
     .progress-bar-master-container {
