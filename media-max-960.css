@@ -27,7 +27,14 @@
 
     .skill-background {
         background-size: cover;
-        background: url(VCmTBd-edited__1556690067_182.59.107.59.jpg) no-repeat -186px -1150PX fixed;
+        background-image: url(http://www.vaibhavtiwari.co.in/VCmTBd-edited__1556690067_182.59.107.59.jpg);
+        background-attachment: fixed;
+        background-position-x: 0px;
+        background-position-y: -800px;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+        background-blend-mode: hue;
         background-blend-mode: hue;
         height: 100%;
     }
