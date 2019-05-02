@@ -28,15 +28,12 @@
     .skill-background {
         
         background-image: url('./VCmTBd-edited__1556690067_182.59.107.59.png');
-        background-attachment: fixed;
-        background-repeat: no-repeat;
+        background-attachment: inherit;
         background-position-x: 0px;
         background-position-y: -800px;
         background-origin: initial;
         background-clip: initial;
         background-color: initial;
-        background-blend-mode: hue;
-        background-blend-mode: hue;
         height: 100%;
     }
 
