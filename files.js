@@ -168,7 +168,8 @@ window.onload = function () {
 	});
 	L.marker([ 19.00917, 73.011266 ], {
 		icon: L.mapquest.icons.marker(),
-		draggable: false
+        draggable: false,
+        scrollWheelZoom:false,
 	}).addTo(map);
 };
 /********************* MAPS API - END **********************************/
