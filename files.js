@@ -162,7 +162,8 @@ window.onload = function () {
 
 	var map = L.mapquest.map('map', {
 		center: [ 19.00917, 73.011266 ],
-		layers: L.mapquest.tileLayer('map'),
+        layers: L.mapquest.tileLayer('map'),
+        dragging:false,
 		zoom: 14
 	});
 	L.marker([ 19.00917, 73.011266 ], {
